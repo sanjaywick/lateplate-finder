@@ -16,8 +16,8 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # MongoDB connection
-client = pymongo.MongoClient("mongodb+srv://sanjaywick:Sanjay1010@cluster0.c12pas1.mongodb.net/")
-db = client["lateplate_finder"]
+client = pymongo.MongoClient("your_key_here")
+db = client["DB_name"]
 
 class LatePlateAnalyticsEngine:
     def __init__(self):
