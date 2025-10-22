@@ -2,8 +2,8 @@
 
 const { MongoClient, ObjectId } = require('mongodb');
 
-const MONGODB_URI = "mongodb+srv://sanjaywick:Sanjay1010@cluster0.c12pas1.mongodb.net/";
-const DB_NAME = "lateplate_finder";
+const MONGODB_URI = "your_secret_key";
+const DB_NAME = "DB_name";
 
 async function seedDatabase() {
   console.log("🌱 Starting database seeding...");
