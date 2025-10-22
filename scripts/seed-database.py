@@ -3,8 +3,8 @@ import json
 from datetime import datetime
 
 # MongoDB connection
-client = pymongo.MongoClient("mongodb+srv://sanjaywick:Sanjay1010@cluster0.c12pas1.mongodb.net/")
-db = client["lateplate_finder"]
+client = pymongo.MongoClient("your_secret_key")
+db = client["DB_name"]
 
 # Sample recipes data matching your MongoDB structure
 recipes = [
