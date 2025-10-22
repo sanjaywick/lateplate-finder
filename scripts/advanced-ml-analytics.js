@@ -9,8 +9,8 @@ const { MongoClient } = require("mongodb")
 
 class LatePlateMLAnalytics {
   constructor(
-    mongoUri = "mongodb+srv://sanjaywick:Sanjay1010@cluster0.c12pas1.mongodb.net/",
-    dbName = "lateplate_finder",
+    mongoUri = "Your_secret_key",
+    dbName = "DB_name",
   ) {
     this.mongoUri = mongoUri
     this.dbName = dbName
